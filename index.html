@@ -21,6 +21,41 @@ Autor: Jonh Nobre
             </p>
         </header>
 
+        <form id="survey-form">
+
+            <!-- Nome -->
+            <label id="name-label" for="name">Nome</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Digite seu nome"
+              required
+            >
+
+            <!-- E-mail -->
+            <label id="email" for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Digite seu e-mail"
+              required
+            >
+
+            <!-- Idade -->
+            <label id="number-label" for="number">Idade</label>
+            <input
+              type="number"
+              id="number"
+              name="age"
+              min="10"
+              max="100"
+              placeholder="Idade"
+            >
+
+        </form>
+
     </div>
 </body>
 </html>
