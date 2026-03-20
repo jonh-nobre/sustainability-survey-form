@@ -7,103 +7,128 @@ Autor: Jonh Nobre
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Sustentabilidade</title>
-    <link rel="stylesheet" href="styles.css">
+  <!-- Configurações básicas -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Título da página -->
+  <title>Formulário de Sustentabilidade</title>
+
+  <!-- Estilos da página (arquivo externo CSS) -->
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="container">
 
-        <header class="header">
-            <h1 id="title">Pesquisa sobre Sustentabilidade</h1>
-            <p id="description">
-                A sua opinião é importante para promover práticas sustentáveis!
-            </p>
-        </header>
+  <!-- Container principal que centraliza o conteúdo -->
+  <div class="container">
 
-        <form id="survey-form">
+    <!-- Cabeçalho do formulário -->
+    <header class="header">
 
-            <!-- Nome -->
-            <label id="name-label" for="name">Nome</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Digite seu nome"
-              required
-            >
+      <!-- Título principal -->
+      <h1 id="title">Pesquisa sobre Sustentabilidade</h1>
 
-            <!-- E-mail -->
-            <label id="email" for="email">E-mail</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Digite seu e-mail"
-              required
-            >
+      <!-- Descrição do formulário -->
+      <p id="description">
+        A sua opinião é importante para promover práticas sustentáveis!
+      </p>
 
-            <!-- Idade -->
-            <label id="number-label" for="number">Idade</label>
-            <input
-              type="number"
-              id="number"
-              name="age"
-              min="10"
-              max="100"
-              placeholder="Idade"
-            >
+    </header>
 
-            <!-- Nível de conhecimento -->
-            <label for="dropdown">
-                Qual o seu nível de conhecimento sobre sustentabilidade?
-            </label>
-            <select id="dropdown" name="nivel">
-                <option value="">Selecione uma opção</option>
-                <option value="nenhum">Não conheço o assunto</option>
-                <option value="iniciante">Conhecimento básico</option>
-                <option value="intermediario">Conhecimento intermediário</option>
-                <option value="avancado">Conhecimento avançado</option>
-            </select>
+    <!-- Início do formulário -->
+    <form id="survey-form">
 
-            <!-- Rádio -->
-            <p>Você pratica ações sustentáveis no dia a dia?</p>
-            <label>
-                <input type="radio" name="pratica" value="sim"> Sim
-            </label>
-            <label>
-                <input type="radio" name="pratica" value="as_vezes"> Às vezes
-            </label>
-            <label>
-                <input type="radio" name="pratica" value="nao"> Não
-            </label>
+      <!-- Campo de nome -->
+      <label id="name-label" for="name">Nome</label>
+      <input 
+        type="text" 
+        id="name" 
+        name="name" 
+        placeholder="Digite seu nome" 
+        required
+      >
 
-            <!-- Checkbox -->
-            <p>Quais práticas você realiza? (Marque todas que se aplicam)</p> 
-            <label>
-                <input type="checkbox" value="reciclagem"> Reciclagem
-            </label>
-            <label>
-                <input type="checkbox" value="economia_agua"> Economia de água
-            </label>
-            <label>
-                <input type="checkbox" value="economia_energia"> Economia de energia
-            </label>
-            <label>
-                <input type="checkbox" value="transporte_sustentavel"> Transporte sustentável
-            </label>
+      <!-- Campo de email -->
+      <label id="email-label" for="email">Email</label>
+      <input 
+        type="email" 
+        id="email" 
+        name="email" 
+        placeholder="Digite seu email" 
+        required
+      >
 
-            <!-- Comentário -->
-            <label for="comments">Sugestões ou comentários:</label>
-            <textarea
-              id="comments"
-              name="comentarios"
-              placeholder="Digite aqui sua opinião..."
-            ></textarea>
+      <!-- Campo de idade -->
+      <label id="number-label" for="number">Idade</label>
+      <input 
+        type="number" 
+        id="number" 
+        name="age" 
+        min="10" 
+        max="100" 
+        placeholder="Idade"
+      >
 
-            <!-- Botão de enviar -->
-            <button id="submit" type="submit">Enviar</button>
+      <!-- Seleção de nível de conhecimento -->
+      <label for="dropdown">
+        Qual o seu nível de conhecimento sobre sustentabilidade?
+      </label>
+      <select id="dropdown" name="nivel">
+
+        <!-- Opção padrão -->
+        <option value="">Selecione uma opção</option>
+
+        <option value="iniciante">Iniciante</option>
+        <option value="intermediario">Intermediário</option>
+        <option value="avancado">Avançado</option>
+      </select>
+
+      <!-- Pergunta com botões de rádio -->
+      <p>Você pratica ações sustentáveis no dia a dia?</p>
+
+      <label>
+        <input type="radio" name="pratica" value="sim"> Sim
+      </label>
+
+      <label>
+        <input type="radio" name="pratica" value="as_vezes"> Às vezes
+      </label>
+
+      <label>
+        <input type="radio" name="pratica" value="nao"> Não
+      </label>
+
+      <!-- Pergunta com múltipla escolha (checkbox) -->
+      <p>Quais práticas você realiza? (Marque todas que se aplicam)</p>
+
+      <label>
+        <input type="checkbox" value="reciclagem"> Reciclagem
+      </label>
+
+      <label>
+        <input type="checkbox" value="economia_agua"> Economia de água
+      </label>
+
+      <label>
+        <input type="checkbox" value="economia_energia"> Economia de energia
+      </label>
+
+      <label>
+        <input type="checkbox" value="transporte_sustentavel">
+        Transporte sustentável
+      </label>
+
+      <!-- Campo de texto para comentários -->
+      <label for="comments">Sugestões ou comentários:</label>
+      <textarea 
+        id="comments" 
+        name="comentarios" 
+        placeholder="Digite aqui sua opinião..."
+      ></textarea>
+
+      <!-- Botão de envio -->
+      <button id="submit" type="submit">Enviar</button>
 
         </form>
 
