@@ -99,6 +99,10 @@ Autor: Jonh Nobre
         <input type="radio" name="pratica" value="nao"> Não
       </label>
 
+      <label>
+        <input type="radio" name="pratica" value="raramente"> Raramente
+      </label>
+
       <!-- Pergunta com múltipla escolha (checkbox) -->
       <p>Quais práticas você realiza? (Marque todas que se aplicam)</p>
 
@@ -119,13 +123,19 @@ Autor: Jonh Nobre
         Transporte sustentável
       </label>
 
+      <label>
+        <input type="checkbox" value="consumo_consciente"> Consumo consciente
+      </label>
+
       <!-- Campo de texto para comentários -->
+      <div>
       <label for="comments">Sugestões ou comentários:</label>
       <textarea 
         id="comments" 
         name="comentarios" 
         placeholder="Digite aqui sua opinião..."
       ></textarea>
+      </div>
 
       <!-- Botão de envio -->
       <button id="submit" type="submit">Enviar</button>
