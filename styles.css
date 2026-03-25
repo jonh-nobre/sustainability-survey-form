@@ -1,19 +1,23 @@
+/* Reset */
 body {
    font-family: Arial, sans-serif;
    background-color: #eafaf1;
    margin: 0; 
 }
 
+/* Container */
 .container {
     max-width: 600px;
     margin: auto;
     padding: 40px;
 }
 
+/* Header */
 .header {
     text-align: center;
 }
 
+/* Formulário */
 form {
     background: white;
     padding: 20px;
@@ -21,29 +25,32 @@ form {
     border-radius: 10px;
 }
 
+/* Campos */
 input, select, textarea, button {
     width: 100%;
     margin-bottom: 10px;
-    margin-top: px;
+    margin-top: 10px;
     padding: 10px;
     box-sizing: border-box;
 }
 
+/* Label */
 label {
-    display: inline-block;
-    padding: 5px;
+    display: flex;
     align-items: center;
     gap: 10px;
     margin-top: 10px;
     cursor: pointer;
 }
 
+/* Checkbox e Radio */
 label input[type="checkbox"],
 label input[type="radio"] {
     width: auto;
     margin: 0;
 }
 
+/* Botão */
 button {
     background-color: green;
     color: white;
