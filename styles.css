@@ -3,6 +3,9 @@ body {
    font-family: Arial, sans-serif;
    background-color: #eafaf1;
    margin: 0; 
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
 }
 
 /* Container */
@@ -56,4 +59,18 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #222;
+    color: white;
+    display: inline-flex;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer-texto, .footer-contato {
+    font-size: 16px;
+    margin-right: 10px;
 }
