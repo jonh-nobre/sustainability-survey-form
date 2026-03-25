@@ -20,4 +20,6 @@ Neste projeto, foquei em resolver desafios comuns de CSS, como:
 
 ## 📌 Status do projeto
 
-Em desenvolvimento...
+![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen)
+
+O projeto encontra-se finalizado, com todos os ajustes de CSS e layout aplicados.
