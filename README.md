@@ -12,6 +12,12 @@ Formulário desenvolvido com o objetivo de praticar a criação de formulários 
 
 Praticar conceitos de desenvolvimento Front-End, especialmente a criação de formulários.
 
+## 🧠 Aprendizados
+Neste projeto, foquei em resolver desafios comuns de CSS, como:
+- Alinhamento de elementos `input` do tipo checkbox e radio usando Flexbox.
+- Ajuste de proximidade entre `label` e campos de entrada para melhor legibilidade.
+- Uso de `box-sizing: border-box` para controle preciso de dimensões.
+
 ## 📌 Status do projeto
 
 Em desenvolvimento...
