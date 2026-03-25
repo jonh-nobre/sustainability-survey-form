@@ -2,10 +2,11 @@
 
 Formulário desenvolvido com o objetivo de praticar a criação de formulários utilizando HTML e CSS.
 
-## 🚀 Tecnologias
+## 🚀 Tecnologias e Recursos
 
 * HTML5
 * CSS3
+* Favicon de Meio Ambiente por Freepik, via Flaticon
 
 ## 🎯 Objetivo
 
